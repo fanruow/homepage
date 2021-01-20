@@ -1,0 +1,29 @@
+title: Nan Wu
+theme: jekyll-theme-cayman
+# Blog settings
+permalink: /:title
+
+
+# My variables
+name: Nan Wu
+description: Welcome to my palace constructed by Data Science
+google_verification: google-site-verification=NOsON38dMkXGJGfMrw0bPP56lndyZgqXvNDfKoq8B9w
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
